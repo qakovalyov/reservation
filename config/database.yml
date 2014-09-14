@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: global_developmnet
+  pool: 5
+  username: kovalyov
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: global_test
+  pool: 5
+  username: kovalyov
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: test_global
+  pool: 5
+  username: test_global
+  password:
